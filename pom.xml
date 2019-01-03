@@ -39,6 +39,12 @@
 			<artifactId>spring-cloud-stream-test-support</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>4.12</scope>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
