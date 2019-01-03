@@ -1,6 +1,9 @@
 package com.example.consumer;
 
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Assert.*;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,7 +19,7 @@ public class ConsumerApplicationTests {
 	
 	@Test
 	public void test() {
-		fail("not implemented");
+		assertEquals(0,1);
 	}
 
 }
