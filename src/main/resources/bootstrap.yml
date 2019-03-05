@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: currency-conversion-service
+    
+
+currency-exchange-service: 
+ ribbon: 
+  listOfServers: http://localhost:8001
+  eureka:
+   enabled: false
+
+server: 
+ port: 8100
+ 
+eureka:
+  client:
+    service-url:
+      default-zone: http://locahost:8761/eureka
+      
+
